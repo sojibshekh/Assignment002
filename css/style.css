@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Rubik', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.navber{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #eee;
+}
+.logo img{
+ padding-top: 40px;
+ width: 100%;
+}
+.manu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 24px;
+	padding-top: 50px;
+	font-size: 24px;
+	font-weight: 300px;
+}
+.manu ul li a{
+	font-weight: 300px;
+}
+.manu ul li a:hover{
+	color: #61B7FF;
+}
+.slow{
+	text-align: center;
+}
+.slow h1{
+	padding-top: 60px;
+	font-size: 45px;
+	padding-bottom: 16px;
+	color: #0F2656;
+
+}
+.slow h1 span{
+	color:#61B7FF; ;
+}
+.slow p{
+	font-size: 20px;
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+.slow img{
+	padding-bottom: 30px;
+}
+.disciption{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+.disleft{
+	flex-basis: 50%;
+	margin-right: 20px;
+}
+.disleft h2{
+	text-align: right;
+	font-size: 60px;
+	color: tomato;
+	padding-bottom: 20px;
+}
+.disleft p{
+	font-size: 20px;
+	text-align: right;
+}
+.disrigth{
+	flex-basis: 50%;
+	margin-left: 20px;
+}
+.disrigth h2{
+font-size: 60px;
+color: #0F2656;
+}
+.threenum{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding-bottom: 20px;
+
+}
+.fristpro{
+	background: #FDEBED;
+	margin: 20px;
+	padding: 16px;
+}
+.fristpro h3{
+	font-size: 25px;
+	
+}
+.secentpro{
+	background: #EBF9F4;
+	margin: 20px;
+	padding: 16px;
+}
+.threepro{
+	background: #FFF7E8;
+	margin: 20px;
+	padding: 16px;
+}
+.footi{
+	text-align: center;
+	background: #008AFF;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footi ul li{
+	list-style: none;
+	
+	display: inline-block;
+	font-size: 50px;
+	padding: 20px;
+}
+.footi ul li a i{
+	height: 70px;
+	width: 70px;
+	background: #fff;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 100%;
+	color:#008AFF; 
+	transition: 0.5s;
+}
+.footi ul li a i:hover{
+	transform: scale(1.2);
+	transform: rotate(360deg);
+	transition: 0.5s;
+}
